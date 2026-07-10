@@ -108,7 +108,7 @@ header {
 
 /* page wrapper */
 .page-wrapper {
-  height: 1000vh;
+  height: 100vh;
   background-color: #f4f2fe;
   display: flex;
   flex-direction: column;
