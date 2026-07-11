@@ -1,14 +1,17 @@
 # AI Prompts Used — Hackathon Section
 
 ## Prompt 1
-"Hakaton part ta ki aro sundor acctative korty chai html css code ar koi cng korbo"
+"I want to make the Hackathon section more attractive. What should I
+change in the HTML/CSS code?"
 
 ## Prompt 2
-"24-Hour Hackathon / Build something amazing overnight... ai part ta aro sundor korty chai"
+"I want to make the '24-Hour Hackathon / Build something amazing
+overnight...' section look more polished and visually appealing."
 
 ## Prompt 3
-"Build something amazing overnight and win big prizes... Duration, Prize Pool, Team Size, Theme
-ai gula dise aigula aro sundor acctartive chai only html and css diya"
+"Here are the details I have: Duration, Prize Pool, Team Size, Theme.
+Make these cards more attractive and visually appealing using only
+HTML and CSS."
 
 ## Tool Used
 Claude (Anthropic)
