@@ -88,11 +88,13 @@ header {
   color: #2e4df6;
   border: 1px solid #2e4df6;
   border-radius: 6px;
+  cursor: pointer;
 }
 .price-highlight button {
   background-color: #2e4df6;
   color: white;
   border: none;
+ 
 }
 .price-card ul {
   display: block;
