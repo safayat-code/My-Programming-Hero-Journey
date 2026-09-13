@@ -1,0 +1,52 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/*
+  Single source of truth for the brand gradient.
+  Change this one value to re-theme the entire UI
+  (brand name, hero heading highlight, primary buttons).
+*/
+:root {
+  --brand-gradient: linear-gradient(90deg, #f97316 0%, #ec4899 55%, #8b5cf6 100%);
+}
+
+.text-gradient {
+  background: var(--brand-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.bg-gradient-brand {
+  background: var(--brand-gradient);
+}
+
+body {
+  font-family: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  background-color: #ffffff;
+  color: #0f172a;
+}
+
+.card-hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px -12px rgba(15, 23, 42, 0.18);
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #ec4899;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #e2e8f0;
+  border-radius: 999px;
+}
